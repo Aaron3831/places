@@ -46,7 +46,7 @@ $(document).ready(function(){
     $("input#food").val("");
     $("input#weather").val("");
 
-    $(".placeAppend").click(function() {
+    $(".placeAppend").last().click(function() {
       $("#show-place").show();
       $("#show-place h2").text(newPlace.place);
       $(".landMarkClass").text(newPlace.landMark);
