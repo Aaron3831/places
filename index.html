@@ -9,6 +9,56 @@
     <title></title>
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form id="new-place">
+            <div class="form-group">
+              <label for="place">Enter a Place You've Been to:</label>
+              <input type="place" class="form-control" id="place">
+            </div>
+            <div class="form-group">
+              <label for="landmark">Major Landmark</label>
+              <input type="landmark" class="form-control" id="landMark" placeholder="Enter Landmark">
+            </div>
+            <div class="form-group">
+              <label for="Where">Where is this place?</label>
+              <input type="where" class="form-control" id="where" placeholder="Where is this place located?">
+            </div>
+            <div class="form-group">
+              <label for="weather">What was the weather like?</label>
+              <input type="weather" class="form-control" id="weather">
+            </div>
+            <div class="form-group">
+              <label for="food">What was your favorite food?</label>
+              <input type="food" class="form-control" id="food">
+            </div>
+            <div class="form-group">
+              <label for="timeYear">When did you visit?</label>
+              <input id="timeYear" class="form-control" type="date">
+            </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
 
+          <h2>Places:</h2>
+          <ul id="placelist">
+
+          </ul>
+
+        </div>
+        <div class="col-md-6">
+        <div id="show-place">
+          <h2></h2>
+
+          <p>Landmark: <span class="landMarkClass"></span></p>
+          <p>Where is this place: <span class="whereClass"></span></p>
+          <p>When did visit: <span class="timeYearClass"></span></p>
+          <p>What was your favorite food: <span class="foodClass"></span></p>
+          <p>What was the weather like: <span class="weatherClass"></span></p>
+
+        </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
